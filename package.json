@@ -1,0 +1,46 @@
+{
+	"name": "@athingperday/react-pico-player",
+	"version": "0.1.1",
+	"description": "A React component for playing a PICO-8 Cartridge",
+	"type": "module",
+	"files": [
+		"dist"
+	],
+	"exports": {
+		"default": "./dist/index.js",
+		"types": "./dist/index.d.ts"
+	},
+	"author": {
+		"name": "athingperday",
+		"url": "https://athingper.day"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/athingperday/react-pico-player"
+	},
+	"homepage": "https://athingper.day/3",
+	"keywords": [
+		"pico",
+		"pico8",
+		"pico-8",
+		"cart",
+		"cartridge",
+		"png",
+		"console",
+		"react"
+	],
+	"scripts": {
+		"build": "tsc"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"upng-js": "^2.1.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.2.37",
+		"@types/react-dom": "^18.2.15",
+		"@types/upng-js": "^2.1.5",
+		"typescript": "^5.2.2"
+	}
+}
